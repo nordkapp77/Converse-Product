@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  border: black solid 4px;
+  width: 900px;
+  margin: 50px auto;
+}
+
+.main-title {
+  background-color: rgba(247, 240, 240, 0.844);
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product-info-box {
+  padding: 25px 0;
+}
+
+.aside-box {
+  padding: 25px 0;
+}
